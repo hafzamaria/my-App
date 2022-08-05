@@ -21,6 +21,9 @@ app.get('/weather', (req, res) => {
         country:'Pakistan',
     })
   })
+  
+  const PORT =process.env.PORT || 4000;
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
